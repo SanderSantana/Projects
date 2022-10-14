@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Passion" ;
+    src: url('Inventory/Fonts/Passions_Conflict/PassionsConflict-Regular.ttf') format('truetype') ;
+}
+
+@font-face {
+    font-family: 'Caviar' ;
+    src: url('Inventory/Fonts/caviar_dreams/CaviarDreams.ttf') format('truetype') ;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: Caviar ;
+    font-style: oblique ;
+  
+    
+  
+    
+}
+body {
+    
+    background-color: #3a2c31;
+}
+main {
+    background-color: #fff;
+    width: 550px ;
+    padding: 10px ;
+    margin: auto ;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 3px #141011;
+}
+h1 {
+    color: #2B3B35;
+    /*text-shadow: 1px 1px 0.5px #202c28d8;*/
+    font-family: Passion ;
+    font-size: 3em ;
+}
+h2 {
+    color: #373B31;
+    font-family: Passion ;
+    font-size: 2em ;
+}
+h3 {
+    color: #373B31;
+}
+   
+

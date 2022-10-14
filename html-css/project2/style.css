@@ -1,0 +1,39 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family: Passion ;
+    src: url(PassionsConflict-Regular.ttf) format(truetype) ;
+}
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body {
+    background-color: rgb(59, 59, 59);
+}
+div {
+    background-color: white;
+    color: black ;
+    margin: auto ;
+    padding: 10px;
+    width: 500px ;
+
+}
+h1 {
+    font-family: Passion;
+}
+p {
+    color: black ;
+}
+div:hover {
+    color: red ;
+    background-color: #c0b81b;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: #EB4917 ;
+}
+

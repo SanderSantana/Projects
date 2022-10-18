@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 @font-face {
     font-family: 'content' ;
     src: url('Inventory/Fonts/Roboto/Roboto-Regular.ttf') format('truetype') ;
@@ -28,7 +30,8 @@
 
 
 header {
-    background-color: #262626;
+    background-color: #1f2527;
+    margin-bottom: 49px;
     width: 1262px;
     
 }
@@ -38,13 +41,22 @@ header h1 {
     color: white;
     font-weight: lighter;
     width: 179px;
-    text-align: center;
-    padding-left: 233px;
-    padding-bottom: 51px;
-    margin-top: -90px;
+    padding-left: 560px;
+    padding-bottom: 73px;
+    margin-top: -132px;
     text-shadow: 0.5px 1px 1px;
     
 
+}
+
+header p {
+    color: white;
+    font-family: var(--h11);
+    width: 256px;
+    padding-left: 531px;
+    padding-bottom: 47px;
+    margin-top: -48px;
+      
 }
 
 header a {
@@ -61,8 +73,8 @@ header img {
 nav {
     text-align: center;
     display: inline;
-    background-color: #262626;
-    padding: 14px 31px 13px 20px   ;
+    background-color: #1f2527;
+    padding: 14px 8.7px 13px 20px;
     position: absolute;
     top: 0%;
     left: 92.4%;
@@ -80,40 +92,141 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #494949;
+    background-color:  #2b3336bb;
     transition: 0.5s;
+    border-radius: 7px;
 
 }
 
 body {
-    background-color: aquamarine;
+    background-color: white;
 }
 main {
+    position: relative;
+    background-color: #1f2527;
     width: 760px;
-    background-color: white;
+    color: black;
     margin: auto;
-    padding: 0px 10px 600px 10px ;
+    padding: 0px 10px 30px 10px ;
+    border-radius: 17px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.418);
     
 }
 
 main h2 {
+    text-indent: 5.9%;
+    color: white;
+    font-weight: 1.5em;
     font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: lighter;
     padding: 40px 10px 46px 10px;
     
 }
 
-main h3 {
+main div {
     text-align: center;
+    background-color: white;
+    color: black;
+    width: 275px;
+    padding: 130px 0px 130px 0px;
+    margin-bottom: 4.5%;
+    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 71%);
+    transition: 0.5s;
+    border-radius: 10px;
+      
 }
 
-main div#block {
-    background-color: rgba(127, 255, 212, 0.623);
-    width: 20%;
-    padding: 140px 60px 140px 60px;
-    margin-left: 80px;
-    margin-bottom: 50px;
+main div p {
+    font-family: var(--p);
+    line-height: 1.3em;
+    color: white;
+    display: none;
 }
-
-
+main div:hover {
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.336);
+    transition: 0.5s;
+    background-color: #3C4D4C;
     
+}
+
+main div h3 {
+    font-family: var(--h11) ;
+    font-weight: lighter;
+}
+
+main div#right {
+    float: right;
+    clear: both;
+    margin-right: 7%;
+}
+
+main div.left {
+    margin-left: 7%
+}
+
+div:hover h3 {
+    display: none;
+}
+
+div:hover p {
+    display: block;
+}
+
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#1f2527;
+    text-align: center;
+    color: white;
+    clear: both;
+    margin-top: 49px;
+    padding: 30px 30px 0px 30px;
+}
+
+footer > h3 {
+    padding-bottom: 7px;
+    font-size: 1.5em;
+}
+
+footer > p {
+    margin: auto;
+    line-height: 1.5em;
+    width: 500px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer a {
+    text-decoration: none;
+}
+footer div.boxicon {
+    padding: 30px;
+}
+
+footer img.icon {
+    margin-left: 10px;
+}
+footer img.smallicon {
+    width: 25px;
+}
+
+footer img:hover {
+    background-color: #1f1e1e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.336);
+}
+
+footer div.credit {
+    background-color: #17171b;
+    padding-left: 0px;
+    margin-left: -31px;
+    margin-right: -30px;
+
+}
+div.credit p {
+    padding: 2px;
+}
+
+.same {
+    background-color: #202026;
 }

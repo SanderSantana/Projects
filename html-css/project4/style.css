@@ -101,7 +101,7 @@ nav a:hover {
 }
 
 body {
-    background-color: white;
+    background-color: #151518;
 }
 main {
     position: relative;
@@ -219,7 +219,7 @@ footer img:hover {
 }
 
 footer div.credit {
-    background-color: #17171b;
+    background-color: #070708;
     padding-left: 0px;
     margin-left: -31px;
     margin-right: -30px;

@@ -31,8 +31,9 @@
 
 header {
     background-color: #1f2527;
-    margin-bottom: 49px;
+    min-height: 180px;
     width: 92.4%;
+    margin-bottom: 50px; 
     
 }
 
@@ -40,10 +41,8 @@ header h1 {
     font-family: var(--h11);
     color: white;
     font-weight: lighter;
-    width: 20%;
-    padding-left: 560px;
-    padding-bottom: 73px;
-    margin-top: -132px;
+    text-align: center;
+    padding-top: 50px;
     text-shadow: 0.5px 1px 1px;
     
 
@@ -52,10 +51,8 @@ header h1 {
 header p {
     color: white;
     font-family: var(--h11);
-    width: 50%px;
-    padding-left: 531px;
-    padding-bottom: 47px;
-    margin-top: -48px;
+    text-align: center;
+    padding-top: 15px;
       
 }
 
@@ -65,6 +62,7 @@ header a {
 
 header img {
      width: 125px ;
+     float: left;
      padding-left: 64px;
      padding-bottom: 20px;
      padding-top: 28px;
@@ -74,12 +72,10 @@ nav {
     text-align: center;
     display: inline;
     background-color: #1b1b20;
-    padding: 14px 8.7px 13px 20px;
+    padding: 14px 8.7px 14px 20px;
     float: right;
-    margin-top: -227.9px;
-    /*position: absolute;
-    top: 0%;
-    left: 92.4%;*/
+    margin-top: -229.9px;
+    
 }
 
 nav a {
@@ -106,7 +102,7 @@ body {
 main {
     position: relative;
     background-color: #1f2527;
-    width: 760px;
+    max-width: 760px;
     color: black;
     margin: auto;
     padding: 0px 10px 30px 10px ;
@@ -135,7 +131,6 @@ main div {
     box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 71%);
     transition: 0.5s;
     border-radius: 10px;
-      
 }
 
 main div p {
@@ -147,7 +142,7 @@ main div p {
 main div:hover {
     box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.336);
     transition: 0.5s;
-    background-color: #202026; /*#3C4D4C*/
+    background-color: #202026; 
     
 }
 
@@ -193,7 +188,7 @@ footer > h3 {
 footer > p {
     margin: auto;
     line-height: 1.5em;
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     font-size: 1.1em;
 }

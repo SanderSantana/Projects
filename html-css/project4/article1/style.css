@@ -45,6 +45,7 @@ header h1 {
     padding-top: 50px;
     padding-right: 70px;
     text-shadow: 0.5px 1px 1px;
+
     
 
 }
@@ -74,7 +75,7 @@ nav {
     text-align: center;
     display: inline;
     background-color: #1b1b20;
-    padding: 14px 8.7px 14px 20px;
+    padding: 14px 8.7px 14px 21px;
     float: right;
     margin-top: -229.9px;
     
@@ -102,79 +103,60 @@ body {
     background-color: #151518;
 }
 main {
-    position: relative;
-    background-color: #1f2527;
+    background-color: white;
     max-width: 760px;
     color: black;
     margin: auto;
-    padding: 0px 10px 30px 10px ;
+    padding: 20px;
     border-radius: 17px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.418);
     
 }
 
-main a {
-    text-decoration: none;
+
+main article {
+    color: black;
+
 }
 
-main h2 {
-    text-indent: 5.9%;
-    color: white;
-    font-weight: 1.5em;
+main h1 {
     font-family: 'Source Sans Pro', sans-serif; 
     font-weight: lighter;
-    padding: 40px 10px 46px 10px;
-    
-}
-
-main div {
     text-align: center;
-    background-color: white;
-    color: black;
-    width: 275px;
-    padding: 130px 0px 130px 0px;
-    margin-bottom: 4.5%;
-    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 71%);
-    transition: 0.5s;
-    border-radius: 10px;
-}
-
-main div p {
-    font-family: var(--p);
-    line-height: 1.3em;
-    color: white;
-    display: none;
-}
-main div:hover {
-    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.336);
-    transition: 0.5s;
-    background-color: #202026; 
+    margin: auto;
+    width: 80%;
+    border-block-end: 3px solid;
+    border-image-source: linear-gradient(90deg,#2E2833, #202026 );
+    border-image-slice: 2;
     
 }
 
-main div h3 {
-    font-family: var(--h11) ;
-    font-weight: lighter;
-}
-
-main div#right {
-    float: right;
-    clear: both;
-    margin-right: 7%;
-}
-
-main div.left {
-    margin-left: 7%
-}
-
-div:hover h3 {
-    display: none;
-}
-
-div:hover p {
+main img {
+    max-width: 50%;
+    min-width: 300px;
     display: block;
+    padding-top: 30px;
+    margin: auto;
 }
 
+main h3 {
+    text-indent: 2%;
+    font-family: 'Source Sans Pro';
+    
+}
+
+main p {
+    margin: 15px 0px 15px 0px ;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 2%;
+
+}
+
+main li {
+    list-style-position: inside;
+    
+}
 
 footer {
     font-family: 'Source Sans Pro', sans-serif;
